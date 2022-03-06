@@ -1,5 +1,4 @@
-![bixler_top_cutout](docs/bixler_top_cutout_2.png)
-
+<img src="docs/bixler_top_cutout_2.png" alt="drawing" width="450"/>
 # LIS Vision Flight
 Open source, simple fixed-wing drone for vision-based flight experiments
 
