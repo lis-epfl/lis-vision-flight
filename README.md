@@ -1,3 +1,5 @@
+![bixler_top_cutout](docs/bixler_top_cutout_2.png)
+
 # LIS Vision Flight
 Open source, simple fixed-wing drone for vision-based flight experiments
 
