@@ -1,0 +1,58 @@
+Board Information Report
+Filename     : D:\projects\nano-carrier\Altium\V_1_1\nano_carrier_pcb.PcbDoc
+Date         : 15/10/2020
+Time         : 10:52:36
+Time Elapsed : 00:00:01
+
+General
+    Board Size, 88mmx54mm
+    Components on board, 168
+count : 2
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Top Layer, 1,822, 1175,558, 25%
+    GND, 6,713, 4331,218, 91%
+    PWR, 6,507, 4197,97, 88%
+    Bottom Layer, 0,549, 354,021, 7%
+count : 4
+
+Plated Hole Size, Pads, Vias
+    0mm, 712, 0
+    0.2mm, 0, 270
+    0.3mm, 0, 115
+    0.7mm, 9, 0
+    0.9mm, 11, 0
+    1.05mm, 4, 0
+    1.1mm, 2, 0
+    1.8mm, 2, 0
+count : 8
+
+Plated Slot Size / Length, Pads
+    19.685mil / 47.244mil, 4
+    23.622mil / 43.307mil, 2
+    23.622mil / 51.181mil, 2
+    23.622mil / 59.055mil, 2
+    23.622mil / 90.551mil, 2
+count : 5
+
+Track Width, Count
+    0.0254mm, 220
+    0.05mm, 30
+    0.08mm, 2
+    0.1mm, 1073
+    0.127mm, 593
+    0.1431mm, 145
+    0.15mm, 1022
+    0.1618mm, 282
+    0.17mm, 8
+    0.1796mm, 118
+    0.2mm, 106
+    0.25mm, 150
+    0.254mm, 106
+    0.3mm, 18
+    0.381mm, 75
+    0.4mm, 302
+    0.5mm, 114
+    0.6mm, 5
+    1mm, 4
+count : 19

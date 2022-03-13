@@ -1,4 +1,4 @@
-<img src="docs/bixler_top_cutout_2.png" alt="drawing" width="450"/>
+<img src="hardware/imgs/top_view_resized.png" alt="drawing" width="450"/>
 
 # LIS Vision Flight
 Open source, simple fixed-wing drone for vision-based flight experiments
@@ -20,7 +20,7 @@ The LIS Vision flight project aims to give easy access to a vision-based fixed-w
 
 ## Hardware
 
-Information will follow
+Instructions for building the drone can be found in [hardware](./hardware)
 
 ## Software
 
