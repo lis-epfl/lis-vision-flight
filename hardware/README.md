@@ -3,6 +3,9 @@
 <img src="imgs/top_view_resized.png" alt="drawing" width="650"/>
 
 ## Parts list
+
+We first provide a list of hardware components. The prices listed are based on online prices on March 11, 2022 and are listed in Euros.
+
 ### Body and actuation
 | Part Function                     | Article Name                            | Amount | Price | Total Price |
 |-----------------------------------|-----------------------------------------|:------:|------:|------------:|
@@ -63,7 +66,7 @@
 | Pixhawk 4 bracket clip (x2) | [SLDPRT](3d_prints/pixhawk_bracket_clip.SLDPRT)<br />[STL](3d_prints/pixhawk_bracket_clip.STL) | ![Pixhawk 4 bracket clip](3d_prints/imgs/pixhawk4_bracket_clip.jpg) | This part slides and clicks into place inside the "Pixhawk 4 bay". See step 6 for instructions. |
 | Jetson nano holder | [SLDPRT](3d_prints/jetson_nano_holder.SLDPRT)<br />[STL](3d_prints/jetson_nano_holder.STL) | ![Jetson nano holder](3d_prints/imgs/jetson_nano_holder.jpg) | This part is glued with its back onto the right side of the front bay (see location on an existing Bixler). Two holes should be tapped with M3 thread to attach the LisNano board by its upper holes. Glue and test-fit the LisNano befor the assembly of the fuselage halves. |
 | Airspeed sensor holder | [SLDPRT](3d_prints/airspeed_sensor_holder.SLDPRT)<br />[STL](3d_prints/airspeed_sensor_holder.STL) | ![Airspeed sensor holder](3d_prints/imgs/airspeed_sensor_holder.jpg) | Tap M3 thread in the holes. Glue onto the shoulder on the left of the front bay (check position on the existing Bixler) |
-| Firefly camera bracket (x2) | [SLDPRT](3d_prints/firefly_camera_bracket.SLDPRT)<br />[STL](3d_prints/firefly_camera_bracket.STL) | ![Firefly camera bracket](3d_prints/imgs/firefly_cam_bracket.jpg) |  |
+| Firefly camera bracket (x2) | [SLDPRT](3d_prints/firefly_camera_bracket.SLDPRT)<br />[STL](3d_prints/firefly_camera_bracket.STL) | ![Firefly camera bracket](3d_prints/imgs/firefly_cam_bracket.jpg) | Bracket to hold the Firefly camera in place. The two holes on the side allow screwing it onto the camera, the singular screw hole allow it to be inserted into the nose part and attached to it with an M3 nylon screw. |
 | Nose plate | [SLDPRT](3d_prints/nose_plate.SLDPRT)<br />[STL](3d_prints/nose_plate.STL) | ![Nose plate](3d_prints/imgs/nose_plate.jpg) | This part is glued to the front of the fuselage. It accepts the front camera with brackets. Tap the holes with M3. |
 | PX4Flow standoff | [SLDPRT](3d_prints/px4flow_standoff.SLDPRT)<br />[STL](3d_prints/px4flow_standoff.STL) | ![PX4Flow standoff](3d_prints/imgs/px4flow_standoff.jpg) | This part is glued to the bottom inside the fuselage of the Bixler. Make sure, the smaller standoffs are towards the back of the plane as they serve to level the flow sensor. |
 | Lidar standoff | [SLDPRT](3d_prints/px4flow_standoff.SLDPRT)<br />[STL](3d_prints/lidar_standoff.STL) | ![PX4Flow standoff](3d_prints/imgs/lidar_standoff.jpg) | The lidar standoff is placed inside the fuselage towards the front as shown in the figure. It is glued onto the fuselage with epoxy. Tap M3 holes into the standoff. |
