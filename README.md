@@ -22,7 +22,7 @@ The LIS Vision flight project aims to give easy access to a vision-based fixed-w
 
 ## Hardware
 
-Instructions for building the drone can be found in [hardware](./hardware).z
+Instructions for building the drone can be found in [hardware](./hardware).
 
 ## Software
 
