@@ -1,7 +1,6 @@
+<img src="imgs/bixler_top_cutout.png" alt="drawing" width="650"/>
+
 # Hardware
-
-<img src="imgs/top_view_resized.png" alt="drawing" width="650"/>
-
 ## Parts list
 
 We first provide a list of hardware components. The prices listed are based on online prices on March 11, 2022 and are listed in Euros.
@@ -26,10 +25,10 @@ We first provide a list of hardware components. The prices listed are based on o
 | RC receiver         | FrSky R-XSR 2.4GHz 16CH ACCST                                  |      1 |    21 |          21 |
 | telemetry           | Transceiver Telemetry Radio V3 500mW Telemetry Radio V3 433MHz |      1 |    51 |          51 |
 | airspeed sensor     | Sensirion SDP33 kit                                            |      1 |    40 |          40 |
-| gps antenna         | Drotek DA233                                                   |      1 |    70 |          70 |
-| gps module          | Drotek DP0601                                                  |      1 |   170 |         170 |
-|    gps extension cable | 415-0031-MM250                                                 |      1 |    15 |          15 |
-| gps cable adapter   | ADP-SMAM-SMAF90                                                |      1 |     6 |           6 |
+| GNSS antenna         | Drotek DA233                                                   |      1 |    70 |          70 |
+| GNSS module          | Drotek DP0601                                                  |      1 |   170 |         170 |
+|    GNSS extension cable | 415-0031-MM250                                                 |      1 |    15 |          15 |
+| GNSS cable adapter   | ADP-SMAM-SMAF90                                                |      1 |     6 |           6 |
 | sd card autopilot   | Sandisk Extreme microSDHC 16GB                                 |      1 |    15 |          15 |
 |                     |                                                                |        |       |     **556** |
 
@@ -53,14 +52,14 @@ We first provide a list of hardware components. The prices listed are based on o
 | Remote Control | FrSky Taranis X9D               |      1 |   214 |         214 |
 | Wifi Router    | Ubiquity AmpliFi HD Mesh Router |      1 |   136 |         136 |
 | Modem          | Netgear LB2120                  |      1 |   145 |         145 |
-| gps antenna    | Drotek DA233                    |      1 |    70 |          70 |
-| gps module     | Drotek DP0601                   |      1 |   170 |         170 |
+| GNSS antenna    | Drotek DA233                    |      1 |    70 |          70 |
+| GNSS module     | Drotek DP0601                   |      1 |   170 |         170 |
 |                |                                 |        |       |     **735** |
 
 ### 3D printed parts
 |Name|link|Image|Description|
 |---|---|---|---|
-| GPS antenna holder | [SLDPRT](3d_prints/gps_antenna_holder.SLDPRT)<br />[STL](3d_prints/gps_antenna_holder.STL)<br />[STEP](3d_prints/gps_antenna_holder.STEP) | ![GPS antenna holder](3d_prints/imgs/gps_antenna_holder.jpg) | Attachment point for GPS antenna. See step 2.|
+| GNSS antenna holder | [SLDPRT](3d_prints/gnss_antenna_holder.SLDPRT)<br />[STL](3d_prints/GNSS_antenna_holder.STL)<br />[STEP](3d_prints/gnss_antenna_holder.STEP) | ![GNSS antenna holder](3d_prints/imgs/gnss_antenna_holder.jpg) | Attachment point for GNSS antenna. See step 2.|
 | Pixhawk 4 foot (x2) | [SLDPRT](3d_prints/pixhawk_foot.SLDPRT)<br />[STL](3d_prints/pixhawk_foot.STL) | ![Pixhawk 4 foot](3d_prints/imgs/pixhawk4_foot.jpg) | Tap M3 threads and attach to naked Pixhawk 4 board with nylon screws. See step 6 for instructions. |
 | Pixhawk 4 bay | [SLDPRT](3d_prints/pixhawk_bay.SLDPRT)<br />[STL](3d_prints/pixhawk_bay.STL) | ![Pixhawk 4 bay](3d_prints/imgs/pixhawk4_bay.jpg) | Is glued into the under-wing bay (which needs to be cut out slightly to fit). Make sure it's not deformed when inserted for glueing and that there is no epoxy in the slots and slits. |
 | Pixhawk 4 bracket clip (x2) | [SLDPRT](3d_prints/pixhawk_bracket_clip.SLDPRT)<br />[STL](3d_prints/pixhawk_bracket_clip.STL) | ![Pixhawk 4 bracket clip](3d_prints/imgs/pixhawk4_bracket_clip.jpg) | This part slides and clicks into place inside the "Pixhawk 4 bay". See step 6 for instructions. |
@@ -68,7 +67,7 @@ We first provide a list of hardware components. The prices listed are based on o
 | Airspeed sensor holder | [SLDPRT](3d_prints/airspeed_sensor_holder.SLDPRT)<br />[STL](3d_prints/airspeed_sensor_holder.STL) | ![Airspeed sensor holder](3d_prints/imgs/airspeed_sensor_holder.jpg) | Tap M3 thread in the holes. Glue onto the shoulder on the left of the front bay (check position on the existing Bixler) |
 | Firefly camera bracket (x2) | [SLDPRT](3d_prints/firefly_camera_bracket.SLDPRT)<br />[STL](3d_prints/firefly_camera_bracket.STL) | ![Firefly camera bracket](3d_prints/imgs/firefly_cam_bracket.jpg) | Bracket to hold the Firefly camera in place. The two holes on the side allow screwing it onto the camera, the singular screw hole allow it to be inserted into the nose part and attached to it with an M3 nylon screw. |
 | Nose plate | [SLDPRT](3d_prints/nose_plate.SLDPRT)<br />[STL](3d_prints/nose_plate.STL) | ![Nose plate](3d_prints/imgs/nose_plate.jpg) | This part is glued to the front of the fuselage. It accepts the front camera with brackets. Tap the holes with M3. |
-| PX4Flow standoff | [SLDPRT](3d_prints/px4flow_standoff.SLDPRT)<br />[STL](3d_prints/px4flow_standoff.STL) | ![PX4Flow standoff](3d_prints/imgs/px4flow_standoff.jpg) | This part is glued to the bottom inside the fuselage of the Bixler. Make sure, the smaller standoffs are towards the back of the plane as they serve to level the flow sensor. |
+| PX4Flow standoff | [SLDPRT](3d_prints/px4flow_standoff.SLDPRT)<br />[STL](3d_prints/px4flow_standoff.STL) | ![PX4Flow standoff](3d_prints/imgs/px4flow_standoff.jpg) | This part is glued to the bottom inside the fuselage of the Bixler. Make sure, the smaller standoffs are towards the back of the plane as they serve to level the flow sensor.  Tap M3 holes into the standoff. |
 | Lidar standoff | [SLDPRT](3d_prints/px4flow_standoff.SLDPRT)<br />[STL](3d_prints/lidar_standoff.STL) | ![PX4Flow standoff](3d_prints/imgs/lidar_standoff.jpg) | The lidar standoff is placed inside the fuselage towards the front as shown in the figure. It is glued onto the fuselage with epoxy. Tap M3 holes into the standoff. |
 
 
@@ -81,19 +80,22 @@ We first provide a list of hardware components. The prices listed are based on o
 
 ### Prepare body
 
+We first give a short overview of most electornic parts that will be put inside the Bixler. Hopefully, this will serve as a guiding help.
 *Note*: We use 5min epoxy to glue if not mentioned otherwise.
 
-**Step 1** Start printing all STL files which you find in the folder [3d_prints](3d_prints).
+![Bixler insides](imgs/bixler_insides_full.svg)
 
-**Step 2** Carve a groove into the tail of the Bixler to allow the antenna extension cable (SMA cable) to go from the tail to the fuselage as shown in the picture. Take the GPS antenna holder and screw the male side of the SMA cable into it. This part (with SMA cable attached) is glued into the tail section of one of the fuselage parts (before fuselage halves are glued together). The SMA cable is glued into the groove cut in the fuselage half. The other end of the SMA cable should exit into the under-wing bay of the fuselage, high enough to allow screwing the GPS module into the SMA connector, as shown in the picture.
+**Step 1** Start printing all STL files which you find in the folder [3d_prints](3d_prints). Tap M3 threads into the 2 Pixhawk 4 feet, the Jetson nano holder, the airspeed sensor holder, the 2 Firefly camera brackets, the nose plate, the PX4Flow standoff and the lidar standoff.
 
-<img src="imgs/gps_cable_resized.png" alt="drawing" width="450"/>
+**Step 2** Carve a groove into the tail of the Bixler to allow the antenna extension cable (SMA cable) to go from the tail to the fuselage as shown in the picture. Take the GNSS antenna holder and screw the male side of the SMA cable into it. This part (with SMA cable attached) is glued into the tail section of one of the fuselage parts (before fuselage halves are glued together). The SMA cable is glued into the groove cut in the fuselage half. The other end of the SMA cable should exit into the under-wing bay of the fuselage, high enough to allow screwing the GNSS module into the SMA connector, as shown in the picture.
+
+<img src="imgs/gnss_cable.png" alt="drawing" height="250"/>
 
 **Step 3** Set all servos to a zero position. You can do this with a servo tester or simply power it through the autopilot. Take the rudder/elevator-servos (2x Corona CS-929MG) and attach the arms at 90° angle such that they are facing outwards the fuselage. Connect the rods to the elevator and rudder in a hole in the servo arm at about 1.3cm distance and attach the arms to the servos. Now, glue the servos in place as shown in the picture.
 
 <img src="imgs/fuselage_servo.jpg" alt="outside" height="150"/>    <img src="imgs/fuselage_servo_inside.jpg" alt="inside" height="150"/>
 
-**Step 4** Extend the wing servos cables. Then, attach the arms to the wing servos at a 90° angle and glue them in the wing. Attach the actuation rods as shown in the pic at a radius of about 1.1cm from the servo rotation center. For all actuation plastic parts, choose the second most outer hole. If you choose others, you will have to tune your controller accordingly afterwards. Finally, glue the flaps and the ailerons together by inserting a piece of foam as shown in the second picture and move ailerons and flaps to break them in.
+**Step 4** Extend the wing servos cables. Then, attach the arms to the wing servos at a 90° angle and glue them in the wing. Attach the actuation rods as shown in the pic at a radius of about 1.1cm from the servo rotation center. For all actuation plastic parts, choose the second most outer hole. If you choose others, you will have to tune your controller accordingly afterwards. Then, glue in the plastic hinges on the ailerons and flaps. Finally, glue the flaps and the ailerons together by inserting a piece of foam as shown in the second picture and move ailerons and flaps to break them in.
 
 <img src="imgs/wing_servo.jpg" alt="inside" height="150"/>  <img src="imgs/aileron_connection.jpg" alt="inside" height="150"/>
 
@@ -101,7 +103,7 @@ We first provide a list of hardware components. The prices listed are based on o
 
 <img src="imgs/motor_mount.jpg" alt="inside" height="150"/>
 
-**Step 6** Tap M3 threads and attach to naked Pixhawk 4 board with nylon screws. Attach the "Pixhawk 4 foot" to the inside of the bracket using damping foam pads from Pixhawk 4 set.
+**Step 6** Tap M3 threads and attach to naked Pixhawk 4 board with nylon screws. Attach the 2 Pixhawk 4 feet to the inside of the bracket using damping foam pads from Pixhawk 4 set.
 
 <img src="imgs/pixhawk4_foam.jpg" alt="inside" height="150"/>
 
@@ -109,6 +111,18 @@ We first provide a list of hardware components. The prices listed are based on o
 
 <img src="imgs/inside_cut.svg" alt="inside" height="150"/>
 
-**Step 8** Glue in the nose plate, the airspeed sensor holder, the 
+**Step 8** Screw the Firefly camera brackets onto the camera. Out of the foam parts that are meant for the wheels, cut a holder for the pitot tube as shown in the picture at (1). Glue on the pitot tube holder (1), the airspeed sensor holder (2), the nose plate (2), the Jetson nano holder (3) and the nose plate (4). Screw on the airspeed sensor, create a hole for the tubes to the pitot tube, add the camera and the Jetson nano.
 
-**Step x** Is glued into the under-wing bay (which needs to be cut out slightly to fit). Make sure it's not deformed when inserted for glueing and that there is no epoxy in the slots and slits.
+<img src="imgs/cam_mounts.jpg" alt="inside" height="150"/>  <img src="imgs/nose_view.jpg" alt="inside" height="150"/>
+
+**Step 9** Glue the lidar standoff and the PX4Flow standoff to the base of the fuselage as shown in the image. Make sure there is enough space to allow to screw in the GNSS module. Screw on the GNSS module, the lidar and the PX4Flow.
+
+<img src="imgs/bixler_insides_standoffs.svg" alt="inside" height="150"/>
+
+**Step 10** The Pixhawk 4 bay is glued into the under-wing bay (which needs to be cut out slightly to fit as shown in the first image). Make sure it's not deformed when inserted for glueing and that there is no epoxy in the slots and slits. The RC receiver sits in the slot next to it, where the wings are attached. Carve a lane in the foam along the Pixhawk 4 to lay down one of the antennas. Poke a hole on the side to guide out the other antenna and attach it with tape to the side as shown in the second image.
+
+<img src="imgs/top_view_bay.jpg" alt="inside" height="150"/>  <img src="imgs/antenna_side.jpg" alt="inside" height="150"/>
+
+**Step 11** Attach the Telemetry module with velcro tape to the inside of the Bixler, such that it will poke out through the air vent as shown in the image. Make sure it does not tuch the propeller. Finally, slide in the Pixhawk 4 into its bays until it clips into place.
+
+<img src="imgs/telemetry.jpg" alt="inside" height="150"/>

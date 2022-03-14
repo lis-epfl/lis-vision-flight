@@ -1,9 +1,11 @@
 <img src="hardware/imgs/top_view_resized.png" alt="drawing" width="450"/>
 
 # LIS Vision Flight
+
 Open source, simple fixed-wing drone for vision-based flight experiments
 
 The LIS Vision flight project aims to give easy access to a vision-based fixed-wing drone to conduct experiments. It features
+
 - a global shutter camera for vision-based applications
 - an oboard single board computer to process vision data and for control
 - a flow sensor and a point lidar for vision-based pose estimation
@@ -20,7 +22,7 @@ The LIS Vision flight project aims to give easy access to a vision-based fixed-w
 
 ## Hardware
 
-Instructions for building the drone can be found in [hardware](./hardware)
+Instructions for building the drone can be found in [hardware](./hardware).z
 
 ## Software
 
