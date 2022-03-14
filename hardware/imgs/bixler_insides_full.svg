@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="226.08101mm"
-   height="58.168941mm"
-   viewBox="0 0 226.081 58.168942"
+   width="236.1059mm"
+   height="66.229385mm"
+   viewBox="0 0 236.10589 66.229386"
    version="1.1"
    id="svg5"
    sodipodi:docname="bixler_insides_full_3.svg"
@@ -40,14 +40,14 @@
      showgrid="false"
      inkscape:snap-intersection-paths="true"
      inkscape:zoom="1.4142136"
-     inkscape:cx="390.6765"
-     inkscape:cy="159.45258"
+     inkscape:cx="462.80139"
+     inkscape:cy="194.10081"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
      inkscape:window-x="-9"
      inkscape:window-y="1341"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer24"
+     inkscape:current-layer="layer22"
      inkscape:snap-midpoints="false" />
   <defs
      id="defs2">
@@ -781,20 +781,22 @@
   <g
      inkscape:groupmode="layer"
      id="layer24"
-     inkscape:label="background">
+     inkscape:label="background"
+     transform="translate(2.0579754,5.6126601)">
     <path
        style="fill:#ffffff;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -2.0579754,-1.8708867 c 0,0 229.7448854,0 229.7448854,0 0,0 0,62.4876157 0,62.4876157 0,0 -229.7448854,0 -229.7448854,0 0,0 0,-62.4876157 0,-62.4876157 z"
+       d="m -2.0579754,-5.6126601 c 0,0 236.1058954,0 236.1058954,0 0,0 0,66.2293891 0,66.2293891 0,0 -236.1058954,0 -236.1058954,0 0,0 0,-66.2293891 0,-66.2293891 z"
        id="path4167"
        inkscape:path-effect="#path-effect4169"
-       inkscape:original-d="m -2.0579754,-1.8708867 c 0,0 229.7448854,0 229.7448854,0 0,0 0,62.4876157 0,62.4876157 0,0 -229.7448854,0 -229.7448854,0 0,0 0,-62.4876157 0,-62.4876157 z" />
+       inkscape:original-d="M -2.0579754,-5.6126601 H 234.04792 V 60.616729 H -2.0579754 Z"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="inside walls"
      style="display:inline;opacity:0.277879"
-     transform="translate(18.744895,-134.55267)">
+     transform="translate(20.80287,-128.94001)">
     <g
        inkscape:groupmode="layer"
        id="layer3"
@@ -904,7 +906,7 @@
      id="layer2"
      inkscape:label="outside walls"
      style="display:inline;opacity:0.358318"
-     transform="translate(18.744895,-134.55267)">
+     transform="translate(20.80287,-128.94001)">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 151.52939,179.59371 c -17.05557,-0.0659 -34.10984,-0.13183 -43.17545,-0.49 -9.065619,-0.35817 -10.141642,-1.00851 -11.395046,-3.71045 -1.253403,-2.70194 -2.684242,-7.45564 -4.115058,-12.20926 2.317686,-0.53212 4.635061,-1.06418 5.959517,-1.608 1.324457,-0.54383 1.655557,-1.0996 1.401427,-2.86753 -0.254129,-1.76792 -1.093682,-4.74774 -1.826954,-6.31466 -0.733271,-1.56691 -1.359979,-1.72063 -3.458999,-1.42495 -2.09902,0.29569 -5.670076,1.04064 -8.933791,2.14042 -3.263716,1.09978 -6.21957,2.55406 -9.175803,4.00853 0,0 -0.39022,5.78239 -0.39022,5.78239 0,0 -37.95802,0.17738 -37.95802,0.17738 0,0 -0.0709,6.8821 -0.0709,6.8821 0,0 -37.39041987,1.20614 -37.39041987,1.20614 0,0 -10e-5,0 -0.5795572,-0.36068 -0.57945721,-0.36068 -1.73822953,-1.08196 -2.89707283,-1.80328 0,0 -13.3188401,3.54964 -13.3188401,3.54964 0,0 0.0868,10.39195 0.0868,10.39195 2.459583,0.95782 4.919026,1.91559 8.0408123,2.75517 3.1217858,0.83959 6.90568489,1.56089 11.5115311,2.11077 4.6058462,0.54987 10.0333756,0.92826 15.4492406,1.19433 5.415864,0.26607 10.819754,0.41979 18.612472,0.39023 7.792719,-0.0296 17.973788,-0.2424 41.9019,-1.00512 23.928111,-0.76272 61.601581,-2.07526 81.151351,-2.99535 19.54978,-0.9201 20.97509,-1.4478 22.40076,-1.97563"
@@ -929,7 +931,7 @@
      id="layer9"
      inkscape:label="lidar"
      style="display:inline"
-     transform="translate(21.396756,14.831812)">
+     transform="translate(23.454731,20.444472)">
     <path
        style="display:inline;fill:none;stroke:#818181;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.278431"
        d="m 44.215281,36.656605 -2.50983,3.290282"
@@ -1047,7 +1049,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="46.107708"
        y="43.008736"
        id="text1337"><tspan
@@ -1055,13 +1057,13 @@
          id="tspan1335"
          x="46.107708"
          y="43.008736"
-         style="font-size:3.52778px;stroke-width:0.264583">Lidar</tspan></text>
+         style="font-size:3.52778px;stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Lidar</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer30"
      inkscape:label="lidar standoff"
-     transform="translate(-0.14812935,-0.33522356)">
+     transform="translate(1.9098461,5.2774365)">
     <g
        inkscape:label="Layer 1"
        id="layer1-4"
@@ -1091,7 +1093,7 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="pixhawk4"
-     transform="translate(21.396756,14.831812)"
+     transform="translate(23.454731,20.444472)"
      style="display:inline">
     <g
        id="layer2-2"
@@ -1214,7 +1216,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="53.362488"
        y="11.669846"
        id="text1341"><tspan
@@ -1222,17 +1224,17 @@
          id="tspan1339"
          x="53.362488"
          y="11.669846"
-         style="font-size:3.52778px;stroke-width:0.264583">Autopilot</tspan></text>
+         style="font-size:3.52778px;stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Autopilot</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="px4flow"
      style="display:inline"
-     transform="translate(21.396756,14.831812)">
+     transform="translate(23.454731,20.444472)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="61.137825"
        y="42.991341"
        id="text1333"><tspan
@@ -1240,7 +1242,7 @@
          id="tspan1331"
          x="61.137825"
          y="42.991341"
-         style="font-size:3.52778px;stroke-width:0.264583">Flow Sensor</tspan></text>
+         style="font-size:3.52778px;stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Flow Sensor</tspan></text>
     <path
        style="fill:none;stroke:#818181;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.278431"
        d="m 73.133577,39.025498 -4.43435,-4.611722 -4.09733,4.877782"
@@ -1260,7 +1262,7 @@
      id="layer27"
      inkscape:label="cut"
      style="display:none"
-     transform="translate(-0.14812935,-0.33522356)">
+     transform="translate(1.9098461,5.2774365)">
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.793749, 0.793749;stroke-dashoffset:0;stroke-opacity:1"
        d="M 83.170205,51.957357 H 56.188145"
@@ -1279,7 +1281,7 @@
      inkscape:groupmode="layer"
      id="layer25"
      inkscape:label="tail"
-     transform="translate(105.11724,14.854182)">
+     transform="translate(107.17522,20.466842)">
     <g
        id="layer4-2"
        inkscape:label="Layer 4"
@@ -1291,7 +1293,7 @@
      id="layer22"
      inkscape:label="pitot tube"
      style="display:inline"
-     transform="translate(21.396756,14.831812)">
+     transform="translate(23.454731,20.444472)">
     <g
        id="g1060"
        transform="matrix(-0.2036702,0,0,0.2036702,1.4904211,22.132162)"
@@ -1375,7 +1377,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-20.51226"
        y="19.962629"
        id="text1353"><tspan
@@ -1383,14 +1385,14 @@
          id="tspan1351"
          x="-20.51226"
          y="19.962629"
-         style="stroke-width:0.264583">Pitot tube</tspan></text>
+         style="stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Pitot tube</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer21"
      inkscape:label="jetson nano"
      style="display:inline"
-     transform="translate(21.396756,14.831812)">
+     transform="translate(23.454731,20.444472)">
     <g
        id="g1651"
        transform="matrix(-0.10593078,-0.00462503,-0.00462503,0.10593078,33.837631,21.601367)"
@@ -3403,7 +3405,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="14.164856"
        y="15.053622"
        id="text1345"><tspan
@@ -3411,11 +3413,11 @@
          id="tspan1343"
          x="14.164856"
          y="15.053622"
-         style="font-size:3.52778px;stroke-width:0.264583">Single Board</tspan><tspan
+         style="font-size:3.52778px;stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Single Board</tspan><tspan
          sodipodi:role="line"
          x="14.164856"
          y="19.463346"
-         style="font-size:3.52778px;stroke-width:0.264583"
+         style="font-size:3.52778px;stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan3174">Computer</tspan></text>
   </g>
   <g
@@ -3423,10 +3425,10 @@
      id="layer23"
      inkscape:label="GPS"
      style="display:inline;opacity:1"
-     transform="translate(21.396756,14.831812)">
+     transform="translate(23.454731,20.444472)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="74.191322"
        y="31.761311"
        id="text1329"><tspan
@@ -3434,7 +3436,7 @@
          id="tspan1327"
          x="74.191322"
          y="31.761311"
-         style="font-size:3.52778px;stroke-width:0.264583">GNSS</tspan></text>
+         style="font-size:3.52778px;stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">GNSS</tspan></text>
     <g
        id="g10994"
        transform="matrix(-0.07459648,0,0,0.07459648,86.760129,26.824549)">
@@ -3569,7 +3571,7 @@
      id="layer26"
      inkscape:label="GPS antenna"
      style="display:inline"
-     transform="translate(-0.14812935,-0.33522356)">
+     transform="translate(1.9098461,5.2774365)">
     <g
        id="layer2-9"
        inkscape:label="GPS antenna"
@@ -3595,7 +3597,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="142.96187"
        y="27.429676"
        id="text1329-6"><tspan
@@ -3603,14 +3605,14 @@
          id="tspan1327-0"
          x="142.96187"
          y="27.429676"
-         style="font-size:3.52778px;stroke-width:0.264583">GNSS Antenna</tspan></text>
+         style="font-size:3.52778px;stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">GNSS Antenna</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer20"
      inkscape:label="telemetry"
      style="display:inline"
-     transform="translate(21.396756,14.831812)">
+     transform="translate(23.454731,20.444472)">
     <g
        id="layer2-6"
        inkscape:label="Layer 2"
@@ -3666,7 +3668,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="71.434677"
        y="16.818254"
        id="text1341-1"><tspan
@@ -3674,13 +3676,13 @@
          id="tspan1339-9"
          x="71.434677"
          y="16.818254"
-         style="font-size:3.52778px;stroke-width:0.264583">Telemetry</tspan></text>
+         style="font-size:3.52778px;stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Telemetry</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer16"
      inkscape:label="firefly"
-     transform="translate(21.396756,14.831812)">
+     transform="translate(23.454731,20.444472)">
     <g
        id="g38118"
        transform="matrix(-0.0560975,0,0,-0.0560975,-12.569009,31.69937)">
@@ -4062,7 +4064,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, ';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Futura Lt BT';-inkscape-font-specification:'Futura Lt BT';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-21.460051"
        y="38.383575"
        id="text1349"><tspan
@@ -4070,13 +4072,13 @@
          id="tspan1347"
          x="-21.460051"
          y="38.383575"
-         style="font-size:3.52778px;stroke-width:0.264583">Camera</tspan></text>
+         style="font-size:3.52778px;stroke-width:0.264583;-inkscape-font-specification:'Futura Lt BT';font-family:'Futura Lt BT';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Camera</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer29"
      inkscape:label="px4flow standoff"
-     transform="translate(-0.14812935,-0.33522356)">
+     transform="translate(1.9098461,5.2774365)">
     <g
        inkscape:label="Layer 1"
        id="layer1"
