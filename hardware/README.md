@@ -124,3 +124,25 @@ We first give a short overview of most electornic parts that will be put inside 
 **Step 11** Attach the Telemetry module with velcro tape to the inside of the Bixler, such that it will poke out through the air vent as shown in the image. Make sure it does not tuch the propeller. Finally, slide in the Pixhawk 4 into its bays until it clips into place.
 
 <img src="imgs/telemetry.jpg" alt="inside" height="150"/>
+
+# Jetson Nano Carrier Board
+
+If you decide to also use the Jetson Nano carrier board, we provide Altium files in the folder [carrier_board_nano](carrier_board_nano). Most useful is the folder [carrier_board_nano/Output](carrier_board_nano/Output), which contains all necessary files to get the PCB custom made. You can find a bill of materials, CAD files, Gerber files, Drill instruction files, assembly drawings and pick place files.
+
+At a weight of 27g, the carrier board allows to power the board directly from a 2S to 4S LiPo battery. It features:
+- USB 3.0 port
+- mini HDMI port
+- connector for a 5V fan
+- micro USB port
+- micro USB host port
+- serial console port
+- I2C connector
+- UART connector
+- MIPI CSI-2 camera connector
+- SD card slot
+
+![Jetson Nano with custom carrier board](imgs/jetson_nano_carrier.png)
+
+Once you have the PCB custom made, we recommend replacing the large default heatsink on the jetson nano module with a smaller one, such as the ICK PGA 16 X 16 X 8 heatsink, by tapping holes into it from the bottom.
+
+For instructions on setting up the software for the Jetson Nano, please refer to [../software](../software/)
