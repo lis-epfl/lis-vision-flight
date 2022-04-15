@@ -26,7 +26,7 @@ Instructions for building the drone can be found in [hardware](./hardware).
 
 ## Software
 
-Information will follow
+Find the instructions for the software setup in [software](./software).
 
 ## Citation
 
