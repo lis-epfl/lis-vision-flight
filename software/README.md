@@ -27,6 +27,35 @@ python2 -m pip install --user -r software/lis-vision-flight-ros/requirements.txt
 
 ## Prepare PX4
 
-We rely on Firmware Version 1.10.1, which you can find [here](https://github.com/PX4/PX4-Autopilot/releases/tag/v1.10.1). You can load all parameter settings from the file [lis-vision-flight-ros/config/px4_parameters.params](lis-vision-flight-ros/config/px4_parameters.params) through QGroundControl
+We rely on Firmware Version 1.10.1, which you can find [here](https://github.com/PX4/PX4-Autopilot/releases/tag/v1.10.1). You can load all parameter settings from the file [lis-vision-flight-ros/config/px4_parameters.params](lis-vision-flight-ros/config/px4_parameters.params) through QGroundControl (we use version ) or simply inspect them and adjust the values as you see fit.
 
-## Software setup
+On the SD card in the PX4 Autopilot, edit (or create if it doesn't exit) the file `/etc/extras.txt` and add these lines
+```
+ekf2 stop
+gps stop
+gps start
+px4flow stop
+ll40ls stop
+ll40ls start -b 4
+sleep 8
+px4flow start -a 0x45
+ekf2 start
+
+mavlink stream -d /dev/ttyS2 -r 100 -s ATTITUDE_QUATERNION
+mavlink stream -d /dev/ttyS2 -r 50  -s LOCAL_POSITION_NED
+mavlink stream -d /dev/ttyS2 -r 50  -s WIND_COV
+mavlink stream -d /dev/ttyS2 -r 50  -s VFR_HUD
+mavlink stream -d /dev/ttyS2 -r 50  -s ACTUATOR_CONTROL_TARGET0
+mavlink stream -d /dev/ttyS2 -r 100 -s HIGHRES_IMU
+mavlink stream -d /dev/ttyS2 -r 100 -s ATTITUDE
+mavlink stream -d /dev/ttyS2 -r 50  -s NAV_CONTROLLER_OUTPUT
+mavlink stream -d /dev/ttyS2 -r 50  -s GLOBAL_POSITION_INT
+mavlink stream -d /dev/ttyS2 -r 50  -s GLOBAL_POSITION_SETPOINT_INT
+mavlink stream -d /dev/ttyS2 -r 50  -s GPS_RAW_INT
+mavlink stream -d /dev/ttyS2 -r 50  -s POSITION_TARGET_GLOBAL_INT
+mavlink stream -d /dev/ttyS2 -r 50  -s SERVO_OUTPUT_RAW
+mavlink stream -d /dev/ttyS2 -r 20  -s DISTANCE_SENSOR
+```
+This will set the right ports for the sensors and will set the required streaming rates.
+
+
