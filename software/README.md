@@ -6,14 +6,16 @@ For instructions on how to setup a Jetson Nano with the custom carrier board, se
 
 ## Install dependencies
 
-First install ROS melodic following the [official instructions](http://wiki.ros.org/melodic/Installation).
+First, install ROS melodic following the [official instructions](http://wiki.ros.org/melodic/Installation).
 
-Then, update the submodule with
+Then, clone the repository and update the submodule with
 ```bash
+git clone https://github.com/lis-epfl/lis-vision-flight.git
+cd lis-vision-flight
 git submodule update --init --recursive
 ```
 
-Install the dependencies ROS dependencies for Whycon and our package with these two commands
+Install the ROS dependencies for Whycon and our package with these two commands
 ```bash
 rosdep install -y --from-path software/whycon
 rosdep install -y --from-path software/lis-vision-flight-ros
@@ -27,7 +29,7 @@ python2 -m pip install --user -r software/lis-vision-flight-ros/requirements.txt
 
 ## Prepare PX4
 
-We rely on Firmware Version 1.10.1, which you can find [here](https://github.com/PX4/PX4-Autopilot/releases/tag/v1.10.1). You can load all parameter settings from the file [lis-vision-flight-ros/config/px4_parameters.params](lis-vision-flight-ros/config/px4_parameters.params) through QGroundControl (we use version ) or simply inspect them and adjust the values as you see fit.
+We use Firmware Version 1.10.1, which you can find [here](https://github.com/PX4/PX4-Autopilot/releases/tag/v1.10.1). You can load all parameter settings from the file [lis-vision-flight-ros/config/px4_parameters.params](lis-vision-flight-ros/config/px4_parameters.params) through QGroundControl (we use version 4.1.4, which you can find [here](https://github.com/mavlink/qgroundcontrol/releases/tag/v4.1.4)) or simply inspect them and adjust the values as you see fit.
 
 On the SD card in the PX4 Autopilot, edit (or create if it doesn't exit) the file `/etc/extras.txt` and add these lines
 ```
@@ -58,4 +60,18 @@ mavlink stream -d /dev/ttyS2 -r 20  -s DISTANCE_SENSOR
 ```
 This will set the right ports for the sensors and will set the required streaming rates.
 
+## Flir camera
 
+If you are using the Flir camera we suggest, we recommend using the [flir_camera_driver](https://github.com/ros-drivers/flir_camera_driver) for ROS. Make sure you first install the Spinnaker SDK, which you can get from the [Spinnaker SDK download page](https://www.flir.eu/support-center/iis/machine-vision/downloads/spinnaker-sdk-and-firmware-download/).
+
+## Run
+
+To run the controller, launch 
+- roscore
+- launch a camera capture node, possibly with `flir_camera_driver`
+- launch an image_proc node to rectify the image
+
+You can then launch our controller/whycon launch file to detect tags and run the guidance control with
+``` bash
+roslaunch lis-vision-flight vision_gnss_controller.launch
+```
