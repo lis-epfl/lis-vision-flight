@@ -27,6 +27,6 @@ python2 -m pip install --user -r software/lis-vision-flight-ros/requirements.txt
 
 ## Prepare PX4
 
-We rely on Firmware Version 1.10.1, which you can find [here](https://github.com/PX4/PX4-Autopilot/releases/tag/v1.10.1). You can load all parameter settings from the file [software/lis-vision-flight-ros/config/px4_parameters.params](software/lis-vision-flight-ros/config/px4_parameters.params) through QGroundControl
+We rely on Firmware Version 1.10.1, which you can find [here](https://github.com/PX4/PX4-Autopilot/releases/tag/v1.10.1). You can load all parameter settings from the file [lis-vision-flight-ros/config/px4_parameters.params](lis-vision-flight-ros/config/px4_parameters.params) through QGroundControl
 
 ## Software setup
