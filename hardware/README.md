@@ -158,7 +158,7 @@ Connect the ground wire on the camera trigger to the ground on PX4 and the trigg
 
 
 ## RC receiver
-Connect the RC receiver to the DSM/SBUS connector according to the [pinout guide](https://cdn.sparkfun.com/assets/e/9/4/6/8/Pixhawk4-Pinouts.pdf).
+Connect the RC receiver to the ports 1,2,5 on the DSM/SBUS connector as described on the [pinout guide](https://cdn.sparkfun.com/assets/e/9/4/6/8/Pixhawk4-Pinouts.pdf).
 
 ## Servos
 Connect the connector board for the servos to the `I/O PWM OUT` port and connect the servos and the ESC of the thrust motor as described in the [Bormatec Maja airframe model](https://dev.px4.io/v1.10/en/airframes/airframe_reference.html#standard-plane).
@@ -185,9 +185,9 @@ Follow these instructions, as the Pixhawk 4 is not meant to power servos and sen
 
 To do so, connect the battery to the `GND` and `B+` connector on the power board. Then, connect the 6-pin connector with the pre-made cable to the Pixhawk 4 `POWER` port.
 
-To power the I2C sensors and servos directly from the board, we disconnect the `VCC` line on both the `FMU OUT` and the `I2C A` port from the connector.
+To avoid powering the I2C sensors and servos directly through the Pixhawk 4, we disconnect the `VCC` line on both the `FMU OUT` and the `I2C A` port from the connector.
 
-To power the I2C sensor, we connect the `5V` and `GND` port from the power module to one of the breakout connectors and do the same for the servo breakout connector.
+To power the I2C sensor and servos through the power board directly, we connect the `5V` and `GND` port from the power module to one of the connectors on each of the breakout boards.
 
 ## Others
 
