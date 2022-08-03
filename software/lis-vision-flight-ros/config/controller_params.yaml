@@ -1,0 +1,22 @@
+target:
+  longitude: 6.568811145944444
+  latitude: 46.52594051405556
+  altitude: 486.3
+
+thrust: 0.35
+distance_tag_target_z: 0.75
+pitch_offset: -2.8
+time_without_detection: 0.5
+publish_rate: 50.0
+
+gravity_constant: 9.806650162
+camera_pose:
+  t_body_cam_body: [0.3, 0, -0.06]
+  R_body_cam: [0, 0, 1, -1, 0, 0, 0, -1, 0] # row wise 3x3 rotation matrix
+
+syncing:
+  queue_time_range: 1.0 # duration in secs determining the queue lengths
+  imu_freq: 100 # frequency of IMU message
+  vel_freq: 50 # frequency of velocity_local message
+  cam_freq: 50 # frequency of camera images
+  gps_freq: 10 # frequency of GPS measurements

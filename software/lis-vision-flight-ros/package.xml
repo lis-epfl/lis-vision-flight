@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>lis-vision-flight</name>
+  <version>0.0.0</version>
+  <description>The lis-vision-flight package which can be used to fly a fixed-wing accurately to a point using vision. It uses the PX4 framework, relies on the Whycon tag, and is designed to work for any fixed-wing, but was originally designed for the HKing Bixler 3.</description>
+
+  <maintainer email="valentinwueest@gmail.com">Valentin Wueest</maintainer>
+
+  <license>MIT</license>
+
+  <author email="valentinwueest@gmail.com">Valentin Wueest</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>mavros_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>whycon</build_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>mavros_msgs</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>whycon</build_export_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>mavros_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>whycon</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

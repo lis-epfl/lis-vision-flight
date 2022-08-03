@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- whycon tag detection -->
+    <arg name="image_topic" default="/forward/image_rect"/>
+    <arg name="camera_info_topic" default="/forward/camera_info"/>
+    <arg name="targets" default="1"/>
+    <arg name="outer_diameter" default="0.23925"/>
+    <arg name="inner_diameter" default="0.09825"/>
+
+    <node name="whycon" type="whycon" pkg="whycon" output="screen">
+        <param name="targets" value="$(arg targets)"/>
+        <param name="outer_diameter" value="$(arg outer_diameter)"/>
+        <param name="inner_diameter" value="$(arg inner_diameter)"/>
+        <remap from="/camera/image_rect_color" to="$(arg image_topic)"/>
+        <remap from="/camera/camera_info" to="$(arg camera_info_topic)"/>
+    </node>
+
+    <!-- controller node -->
+    <node name="l1p_controller_dynamic" pkg="lis-vision-flight" type="vision_gnss_controller.py" output="screen">
+        <rosparam command="load" file="$(find lis-vision-flight)/config/controller_params.yaml" />
+    </node>
+</launch>
