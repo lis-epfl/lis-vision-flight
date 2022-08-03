@@ -1,0 +1,4 @@
+numpy>=1.16.6
+utm>=0.7.0
+PyYAML>=5.4.1
+rospkg>=1.4.0
