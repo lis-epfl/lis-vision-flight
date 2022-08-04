@@ -1,0 +1,21 @@
+acquisition_frame_rate: 10.0
+line_source: ExposureActive
+auto_exposure_time_upper_limit: 30000
+exposure_auto: 'Off'
+exposure_time: 2000.0
+auto_gain: 'Off'
+gain: 0.0
+
+# full sensor
+image_format_roi_width:         1440
+image_format_roi_height:        1080
+image_format_x_binning:         1
+image_format_y_binning:         1
+image_format_x_offset:          0
+image_format_y_offset:          0
+
+# external trigger
+acquisition_frame_rate_enable: false  # Frame rate halved without this setting!
+enable_trigger: 'On'
+trigger_selector: FrameStart
+trigger_source: Line3

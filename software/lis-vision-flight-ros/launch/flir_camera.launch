@@ -1,0 +1,35 @@
+<launch>
+
+    <arg name="camera_name" default="forward" />
+    <arg name="camera_serial" default="19308195" />
+
+    <arg name="camera_calibration" default="$(find lis-vision-flight)/config/$(arg camera_serial).yaml" />
+    <arg name="camera_config" default="$(find lis-vision-flight)/config/$(arg camera_name).yaml" /> 
+    
+    <arg name="calibrated" default="1" />
+    <arg name="cam_imu_sync" default="true" />
+    <arg name="cam_imu_timeshift" default="0.0095" />
+
+    <arg name="manager" default="camera_nodelet_manager"/>
+    <group ns="$(arg camera_name)">
+        <node pkg="nodelet" type="nodelet" name="$(arg manager)" args="manager" cwd="node" output="screen"/>
+        <node pkg="nodelet" type="nodelet" name="spinnaker_camera_nodelet" args="load spinnaker_camera_driver/SpinnakerCameraNodelet $(arg manager)" >
+
+            <rosparam command="load" file="$(arg camera_config)" />
+            <rosparam command="load" file="$(arg camera_calibration)" />
+            <param name="camera_info_url" if="$(arg calibrated)" value="file://$(arg camera_calibration)" />
+            <param name="frame_id" value="$(arg camera_name)" />
+
+            <param name="cam_imu_sync" value="$(arg cam_imu_sync)" />
+            <param name="cam_imu_timeshift" value="$(arg cam_imu_timeshift)" />
+
+            <remap from="image_raw" to="image_mono" />
+            <remap from="mavros/cam_imu_sync/cam_imu_stamp" to="/mavros/cam_imu_sync/cam_imu_stamp" />
+            <remap from="mavros/cmd/trigger_control" to="/mavros/cmd/trigger_control" />
+        </node>
+
+        <node pkg="nodelet" type="nodelet" name="rectify_mono" if="$(arg calibrated)" args="load image_proc/rectify $(arg manager)"/>
+
+    </group>
+
+</launch>
