@@ -31,6 +31,7 @@ source ../../devel/setup.bash
 ```
 
 (Optional: We recommend creating a virtual environment for this step)
+
 Get the python dependencies with
 
 ```bash
