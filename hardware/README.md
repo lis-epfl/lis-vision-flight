@@ -154,7 +154,7 @@ We show here a quick overview of the wiring and then go into more detail of each
 
 ## Camera trigger
 
-Connect the ground wire on the camera trigger to the ground on PX4 and the trigger wire to pin 5 or 6 on the `FMU PWM OUT`. For details on wiring and parameter settings, please refer to the official guide in [this section](https://docs.px4.io/v1.12/en/peripherals/camera.html).
+Connect the ground wire on the camera trigger to the ground on PX4 and the trigger wire to pin 5 or 6 on the `FMU PWM OUT`. For details on wiring and parameter settings, please refer to the official guide in [this section](https://docs.px4.io/v1.12/en/peripherals/camera.html). The trigger port on the camera can be defined in the [camera parameters file](../software/lis-vision-flight-ros/config/forward.yaml).
 
 
 ## RC receiver
