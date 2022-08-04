@@ -21,7 +21,17 @@ rosdep install -y --from-path software/whycon
 rosdep install -y --from-path software/lis-vision-flight-ros
 ```
 
-Get the python dependencies with (however, we recommend creating a virtual environment for it first)
+Build the whycon tag detector and source the catkin workspace
+
+```bash
+cd ../..
+catkin_make
+cd src/lis-vision-flight
+source ../../devel/setup.bash
+```
+
+(Optional: We recommend creating a virtual environment for this step)
+Get the python dependencies with
 
 ```bash
 python2 -m pip install --user -r software/lis-vision-flight-ros/requirements.txt
@@ -71,7 +81,8 @@ To run the controller, launch
 - launch a camera capture node, possibly with `flir_camera_driver`
 - launch an image_proc node to rectify the image
 
-You can then launch our controller/whycon launch file to detect tags and run the guidance control with
+You can then launch the connection of the Jetson nano to the PX4 Autopilot with mavros and then launch the controller with the provided launch file in another terminal window.
 ``` bash
+roslaunch mavros px4.launch fcu_url:=/dev/ttyTHS1:921600
 roslaunch lis-vision-flight vision_gnss_controller.launch
 ```
