@@ -39,7 +39,7 @@ python2 -m pip install --user -r software/lis-vision-flight-ros/requirements.txt
 
 ## Prepare PX4
 
-We use Firmware Version 1.10.1, which you can find [here](https://github.com/PX4/PX4-Autopilot/releases/tag/v1.10.1). You can load all parameter settings from the file [lis-vision-flight-ros/config/px4_parameters.params](lis-vision-flight-ros/config/px4_parameters.params) through QGroundControl (we use version 4.1.4, which you can find [here](https://github.com/mavlink/qgroundcontrol/releases/tag/v4.1.4)) or simply inspect them and adjust the values as you see fit.
+We use Firmware Version 1.10.1, which you can find [here](https://github.com/PX4/PX4-Autopilot/releases/tag/v1.10.1). You can load all parameter settings from the file [lis-vision-flight-ros/config/px4_parameters.params](lis-vision-flight-ros/config/px4_parameters.params) through QGroundControl (we use version 4.1.4, which you can find [here](https://github.com/mavlink/qgroundcontrol/releases/tag/v4.1.4)) or simply inspect them and adjust the values as you see fit. Please refer to the [PX4 parameter list](https://docs.px4.io/v1.10/en/advanced_config/parameter_reference.html) for more information on each of the parameters.
 
 On the SD card in the PX4 Autopilot, edit (or create if it doesn't exit) the file `/etc/extras.txt` and add these lines
 ```
@@ -74,15 +74,15 @@ This will set the right ports for the sensors and will set the required streamin
 
 If you are using the Flir camera we suggest, we recommend using the [flir_camera_driver](https://github.com/ros-drivers/flir_camera_driver) for ROS. Make sure you first install the Spinnaker SDK, which you can get from the [Spinnaker SDK download page](https://www.flir.eu/support-center/iis/machine-vision/downloads/spinnaker-sdk-and-firmware-download/).
 
+We recommend calibrating the camera with [Kalibr](https://github.com/ethz-asl/kalibr). This will help you to get the right camera parameters, which you can put in the [calibration config file](config/19308195.yaml).
+
+We provide a launch file that allows triggering the camera from PX4 in [flir_camera.launch](launch/flir_camera.launch).
+
 ## Run
 
-To run the controller, launch 
-- roscore
-- launch a camera capture node, possibly with `flir_camera_driver`
-- launch an image_proc node to rectify the image
+To run the controller as we did in the publication, you can then launch the camera ([camera launch file](lis-vision-flight-ros/launch/flir_camera.launch)), the connection of the Jetson nano to the PX4 Autopilot with mavros and the vision based controller ([controller launch file](lis-vision-flight-ros/launch/vision_gnss_controller.launch)) with
 
-You can then launch the connection of the Jetson nano to the PX4 Autopilot with mavros and then launch the controller with the provided launch file in another terminal window.
 ``` bash
-roslaunch mavros px4.launch fcu_url:=/dev/ttyTHS1:921600
-roslaunch lis-vision-flight vision_gnss_controller.launch
+roslaunch lis-vision-flight run.launch
 ```
+

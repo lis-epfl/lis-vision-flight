@@ -1,0 +1,7 @@
+<launch> 
+    <include file="$(find mavros)/launch/px4.launch" >
+        <arg name="fcu_url" value="/dev/ttyTHS1:921600"/>
+    </include> 
+    <include file="$(find lis-vision-flight)/launch/flir_camera.launch" /> 
+    <include file="$(find lis-vision-flight)/launch/vision_gnss_controller.launch" /> 
+</launch>

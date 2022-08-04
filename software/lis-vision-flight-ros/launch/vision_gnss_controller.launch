@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <launch>
+    <!-- launch file that runs a node for the whycon tag detection -->
+    <!-- and a node for the vision based controller -->
+
     <!-- whycon tag detection -->
     <arg name="image_topic" default="/forward/image_rect"/>
     <arg name="camera_info_topic" default="/forward/camera_info"/>

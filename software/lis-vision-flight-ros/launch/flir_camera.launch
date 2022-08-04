@@ -1,5 +1,6 @@
 <launch>
-
+    <!-- launch file to run a camera node that allows triggering from PX4 -->
+    <!-- and rectifies the image with image proc -->
     <arg name="camera_name" default="forward" />
     <arg name="camera_serial" default="19308195" />
 
