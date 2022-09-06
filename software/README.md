@@ -75,9 +75,9 @@ This will set the right ports for the sensors and will set the required streamin
 
 If you are using the Flir camera, we recommend using the [flir_camera_driver](https://github.com/ros-drivers/flir_camera_driver) for ROS. Make sure you first install the Spinnaker SDK, which you can get from the [Spinnaker SDK download page](https://www.flir.eu/support-center/iis/machine-vision/downloads/spinnaker-sdk-and-firmware-download/).
 
-We recommend calibrating the camera with [Kalibr](https://github.com/ethz-asl/kalibr). This will help you to get the right camera parameters, which you can put in the [calibration config file](config/19308195.yaml).
+We recommend calibrating the camera with [Kalibr](https://github.com/ethz-asl/kalibr). This will help you to get the right camera parameters, which you can put in the [calibration config file](lis-vision-flight-ros/config/19308195.yaml).
 
-We provide a launch file that allows triggering the camera from PX4 in [flir_camera.launch](launch/flir_camera.launch).
+We provide a launch file that allows triggering the camera from PX4 in [flir_camera.launch](lis-vision-flight-ros/launch/flir_camera.launch).
 
 ## Run
 
