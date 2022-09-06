@@ -30,4 +30,12 @@ Find the instructions for the software setup in [software](./software).
 
 ## Citation
 
-Information will follow
+``` bibtex
+@inproceedings{wueest2018accurate,
+  title={Accurate Vision-based Flight with Fixed-Wing Drones},
+  author={W{\"u}est, Valentin and Ajanic, Enrico and M{\"u}ller, Matthias and Floreano, Dario},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2022},
+  organization={IEEE}
+}
+```
